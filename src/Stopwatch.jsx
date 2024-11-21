@@ -3,7 +3,7 @@ import React, {useState, useEffect, useRef} from 'react';
 function Stopwatch({task, timing}){
 
     const [isRunning, setIsRunning] = useState(false);
-    const [formatting, setFormatting] = useState(false);
+    const [formatting, setFormatting] = useState(true);
     const [elapsedTime, setElapsedTime] = useState(0);
     const [pickTime, setPickTime] = useState(timing);
     const intervalIdRef = useRef(null);
