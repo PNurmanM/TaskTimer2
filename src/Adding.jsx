@@ -50,13 +50,13 @@ function Adding(){
         } 
 
 
-        const newWatch = {
-            watchA: <Stopwatch task={task} timing={calculatedTime}/>,
-            taskA: task,
-            timingA: calculatedTime,
-        };
+        //const newWatch = {
+            //watchA: <Stopwatch task={task} timing={calculatedTime}/>,
+            //taskA: task,
+            //timingA: calculatedTime,
+        //};
 
-        setWatches((w) => [newWatch, ...w]);       
+        setWatches((w) => [<Stopwatch task={task} timing={calculatedTime}/>, ...w]);       
         setTask('');
         setHours('');
         setMinutes('');
@@ -144,7 +144,7 @@ function Adding(){
                         <li key={index}>
                             <button className="deleteButton" onClick={() => deleteListItem(index)}>X</button>
                             <div>
-                                {watch.watchA}
+                                {watch}
                             </div>
                         </li>)}  
                     </ul>
