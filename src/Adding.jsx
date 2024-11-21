@@ -149,9 +149,7 @@ function Adding(){
                         </li>)}  
                     </ul>
                 </div>
-                
             </>
-
     );
 }
 

@@ -16,6 +16,7 @@ function Stopwatch({task, timing}){
         }
     }, [pickTime]);
 
+
     useEffect(() => {
 
         if(isRunning){
