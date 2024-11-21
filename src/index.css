@@ -168,4 +168,5 @@ background-color: hsl(212, 50%, 65%);
 .listStopDiv li{
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }

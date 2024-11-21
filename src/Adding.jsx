@@ -146,7 +146,6 @@ function Adding(){
                             <div>
                                 {watch.watchA}
                             </div>
-                            
                         </li>)}  
                     </ul>
                 </div>
